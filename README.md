@@ -26,3 +26,8 @@ ans =
     'Tears_Weekend'
 
 ### spectrogram3()
+This code block is creates spectrogram graph with given limits and values.
+This part also filters our spectrogram with threshold value and print the
+our 1,0 matrix of figure and obtain our fingerprint.
+CALL COMMAND:
+[fingerprinted matrix value name]=spectrogram3('audiofile name')
