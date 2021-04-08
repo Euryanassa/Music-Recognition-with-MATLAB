@@ -33,6 +33,7 @@ our 1,0 matrix of figure and obtain our fingerprint.
 CALL COMMAND:
 >[fingerprinted matrix value name]=spectrogram3('audiofile name')
 It also takes SURF plot and print our graph for visualize and test our !spectrogram. Not much necessary for our whole program. It just looks cool!
+#####
 ![ATO_GRAPHS](https://user-images.githubusercontent.com/67932543/114042937-893a2800-988e-11eb-92f0-16f038d683f2.png)
 
 ### spectrogram3() 
