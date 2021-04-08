@@ -10,3 +10,17 @@ Music Recognition AI with MATLAB by Altemur
 | `mp3data_collector` | This code block is help to mine our mp3 data form MP3_Files File. |
 | `resample_number` | It classify mp3 and wav files and resamples to our audio signal |
 
+### BOOM()
+This code is an execution code for whole program. You should just write BOOM() to execute program! Have Fun!
+Firstly it calls recorder1() function to record our music for 5 second.
+Secondly, it calls compare algorithms and get best match for our program and displays your matched song name and time spent while program was searching song.
+
+##### Example Output:
+>> BOOM()
+Start speaking.
+End of Recording.
+Elapsed time is 2.974238 seconds.
+ans =
+    'Tears_Weekend'
+
+### spectrogram3()
