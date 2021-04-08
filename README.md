@@ -41,11 +41,12 @@ Same with spectrogram but it filters only mp3 files and only mp3data_collector.m
 
 ![ATO2_Filtered to half](https://user-images.githubusercontent.com/67932543/114043646-25642f00-988f-11eb-9199-30ce593aa407.png)
 
-### save_txt_data
+### save_txt_data()
 
-This part we enter function name to our matlab function. save_txt_data(audiofile_name) We need to add our audiofile name between ""
+This part we enter function name to our matlab function. We need to add our audiofile name between ""
 Our function will give our plot and save the .mat data with given format in 1 and 0 (ones and zeroes)
-
+>save_txt_data(audiofile_name)
+>
 ### mp3data_colector()
 
 This code block is help to mine our mp3 data form MP3_Files File. Just write mp3data_collector() to execute this command line. It opens our mp3 files by order and process one by one and collect them from our datas_audio folder.
