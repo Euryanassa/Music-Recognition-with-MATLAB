@@ -16,9 +16,9 @@ Firstly it calls recorder1() function to record our music for 5 second.
 Secondly, it calls compare algorithms and get best match for our program and displays your matched song name and time spent while program was searching song.
 
 #### Example Output:
-#####Call Command:
+##### Call Command:
 BOOM()
-#####Output:
+##### Output:
 Start speaking.
 End of Recording.
 Elapsed time is 2.974238 seconds.
