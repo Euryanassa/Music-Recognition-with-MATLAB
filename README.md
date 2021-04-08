@@ -19,7 +19,7 @@ Secondly, it calls compare algorithms and get best match for our program and dis
 ##### Call Command:
 BOOM()
 ##### Output:
-Start speaking.
+Start speaking. \n
 End of Recording.
 Elapsed time is 2.974238 seconds.
 ans =
