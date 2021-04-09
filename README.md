@@ -36,7 +36,7 @@ It also takes SURF plot and print our graph for visualize and test our !spectrog
 #####
 ![ATO_GRAPHS](https://user-images.githubusercontent.com/67932543/114042937-893a2800-988e-11eb-92f0-16f038d683f2.png)
 
-### spectrogram3() 
+### spectrogram_mp3() 
 Same with spectrogram but it filters only mp3 files and only mp3data_collector.m uses this spectrogram command for mining.
 
 ![ATO2_Filtered to half](https://user-images.githubusercontent.com/67932543/114043646-25642f00-988f-11eb-9199-30ce593aa407.png)
