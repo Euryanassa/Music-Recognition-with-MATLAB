@@ -9,6 +9,8 @@ Music Recognition AI with MATLAB by Altemur
 | `save_txt_data` | Our function will give our plot and save the .mat data with given format 1 and 0 (ones and zeroes) |
 | `mp3data_collector` | This code block is help to mine our mp3 data form MP3_Files File. |
 | `resample_number` | It classify mp3 and wav files and resamples to our audio signal |
+| `compare_algorithm` | It compares matrix of recorded file with mp3 and finds the highest percentage of match |
+| `recorder1` | Records audio with 44100/16Bit/1Channel |
 
 ### BOOM()
 This code is an execution code for whole program. You should just write BOOM() to execute program! Have Fun!
