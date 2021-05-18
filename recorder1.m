@@ -10,9 +10,10 @@ function recorder1(rec_time)
 recObj= audiorecorder(44100,16,1);
 
 %Recording Process
-disp('Start speaking.')
+disp('Recording Begin')
 recordblocking(recObj,rec_time);
 disp('End of Recording.');
+disp('Searching...');
 
 %It plays sound if you wish
 %play(recObj);
