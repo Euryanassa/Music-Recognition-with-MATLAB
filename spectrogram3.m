@@ -32,12 +32,24 @@ ind = find(P>threshold);
 spg_thres(ind) = 1;
 
 %We filtered lower frequencies to get rid of environmental noise
-ilk=size(spg_thres);
+[boy,en]=size(spg_thres);
 spg2=[];
 a=23;
-for ii=a:513
-spg2(ii-(a-1),:)=spg_thres(ii,:);
+
+audiofile=strcat('datas_audio\',audiofile);
+audioMAT = extractAfter(audiofile,"datas_audio\");
+if audioMAT==string('recordedmusic.wav')
+    for ii=a:513
+    spg2(ii-(a-1),:)=spg_thres(ii,:);
+    end
+%If its mp3 data, it makes stereo map to mono
+else
+    for ii=a:513
+    spg2(ii-(a-1),:)=spg_thres(ii,1:floor(en/2)+1);
+    end
 end
+
+    
 
 %This part gives us filtered image of our audio.
 figure(),imagesc(T,F,spg2);
